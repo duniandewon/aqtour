@@ -3,21 +3,31 @@
 @tailwind utilities;
 
 :root {
+  --font-geist-sans: 'Geist Sans', Arial, Helvetica, sans-serif;
+  
   --background: #ffffff;
   --foreground: #171717;
-}
+  
+  --primary: #ffb800;
+  --primary-foreground: #171717;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --secondary: #007bff;
+  --secondary-foreground: #ffffff:
+  
+  
+  --muted-foreground: #333333;
+  --muted: #d1d1d1;
+
+  --destructive: #ff4c4c;
+  --destructive-foreground: #ffffff;
+
+  --radius: 0.5rem;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--muted-foreground);
+  background: var(--muted);
+  font-family: var(--font-geist-sans);
 }
 
 @layer utilities {
