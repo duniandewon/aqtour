@@ -16,6 +16,10 @@ const config: Config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-source-sans-pro)"],
+        serif: ["var(--font-lora)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

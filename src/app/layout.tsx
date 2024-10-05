@@ -3,10 +3,16 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const lora = localFont({
+  src: "./fonts/Lora-VariableFont_wght.ttf",
+  variable: "--font-lora",
+  weight: "700 900",
+});
+
+const sourceSansRegular = localFont({
+  src: "./fonts/SourceSans3-VariableFont_wght.ttf",
+  variable: "--font-source-sans-pro",
+  weight: "400 500",
 });
 
 export const metadata: Metadata = {
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} antialiased`}
+        className={`${lora.variable} ${sourceSansRegular.variable} antialiased`}
       >
         {children}
       </body>

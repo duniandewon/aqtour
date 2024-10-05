@@ -27,7 +27,7 @@
 body {
   color: var(--muted-foreground);
   background: var(--muted);
-  font-family: var(--font-geist-sans);
+  font-family: var(--font-source-sans-pro);
 }
 
 @layer utilities {
