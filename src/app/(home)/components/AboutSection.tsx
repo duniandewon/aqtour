@@ -3,9 +3,9 @@ import { Section } from "@/components/Section";
 function About({ title, description }: { title: string; description: string }) {
   return (
     <div className="grid grid-cols-[auto_1fr]">
-      <div className="w-[20px] h-[100px] bg-primary row-span-2 mr-10" />
-      <h2 className="text-xl font-semibold">{title}</h2>
-      <p className="text-base">{description}</p>
+      <div className="w-[5px] h-[100px] bg-primary row-span-2 mr-10" />
+      <h2 className="text-4xl text-gray-400 font-serif">{title}</h2>
+      <p>{description}</p>
     </div>
   );
 }

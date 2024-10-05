@@ -17,7 +17,6 @@ export function PageLayout({ children }: Readonly<Props>) {
               alt="logo"
               width={296}
               height={112}
-              className="w-36 md:w-48"
             />
           </Link>
           <MainMenu />
