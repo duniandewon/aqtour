@@ -8,7 +8,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
 export function Section({ children, title, className }: Readonly<Props>) {
   return (
     <section className={cn("space-y-10 px-10 py-12", className)}>
-      <h2 className="text-center text-2xl font-bold uppercase">{title}</h2>
+      <h2 className="text-center text-4xl font-bold font-serif uppercase">{title}</h2>
       {children}
     </section>
   );
