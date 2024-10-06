@@ -26,7 +26,7 @@
 
 body {
   color: var(--muted-foreground);
-  background: var(--muted);
+  background: var(--muted) url("/bg.jpg");
   font-size: 1.8rem;
   font-family: var(--font-source-sans-pro);
 }
