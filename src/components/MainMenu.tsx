@@ -26,27 +26,17 @@ const NAVIGATION_MENUS: Menu[] = [
     label: "Home",
   },
   {
-    label: "Package",
-    hasChildren: true,
-    children: [
-      {
-        path: "/haj",
-        label: "Haj",
-      },
-      {
-        path: "/umrah",
-        label: "Umrah",
-      },
-    ],
+    path: "/umroh",
+    label: "Umroh",
   },
   {
     label: "About",
     path: "/about",
   },
-  {
-    label: "Contact",
-    path: "/contact",
-  },
+  // {
+  //   label: "Contact",
+  //   path: "/contact",
+  // },
 ];
 
 export function MainMenu() {
