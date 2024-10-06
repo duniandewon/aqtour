@@ -4,6 +4,7 @@ import { MainMenu } from "./MainMenu";
 import { Instagram } from "@/icons/Instagram";
 import { Globe } from "@/icons/Globe";
 import { Phone } from "@/icons/Phone";
+import { RegisterForm } from "./RegisterForm";
 
 interface Props {
   children: React.ReactNode;
@@ -22,6 +23,12 @@ export function PageLayout({ children }: Readonly<Props>) {
       </header>
       <main>
         <div>{children}</div>
+        <div className="bg-primary text-center py-10">
+          <h2 className="text-4xl font-bold">Apply Now And Get 10% DISCOUNT</h2>
+        </div>
+        <div className="bg-white px-10 py-10">
+          <RegisterForm />
+        </div>
       </main>
       <footer className="bg-black">
         <div className="px-10 py-10 flex items-center justify-between">

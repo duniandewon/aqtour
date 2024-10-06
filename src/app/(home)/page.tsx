@@ -8,7 +8,9 @@ import { WhyChooseUs } from "./components/WhyChooseUsSection";
 export default function Home() {
   return (
     <PageLayout>
-      <Hero backgroundImage="/hero.png">hello</Hero>
+      <Hero backgroundImage="/hero.png">
+        <div></div>
+      </Hero>
       <PopularProductSection />
       <WhyChooseUs />
       <AboutSection />
