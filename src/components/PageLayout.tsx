@@ -34,7 +34,7 @@ export function PageLayout({ children }: Readonly<Props>) {
         <div className="px-10 py-10 flex items-center justify-between">
           <div>
             <Image
-              src="/logo-horizontal.png"
+              src="/logo-vertical.png"
               alt="logo"
               width={254}
               height={222}
